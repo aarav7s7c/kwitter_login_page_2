@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Kwitter Room</title>
+
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+	
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+
+
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+	<button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()"></button>
+
+<div class="container">
+
+		
+
+<center>
+
+		<h1 class="header">	
+
+		Kwitter	
+
+				<sup>
+
+					<img src="138-1388876_2017-intertech-americas-corp-white-twitter-bird-transparent.png">
+
+				</sup>
+
+		</h1>
+
+		<h3 class="color_white"></h3>
+
+		<div class="form-group input_div_room_page">
+
+			<label >Room Name:</label>
+
+
+		</div>
+		
+		
+		<div class="form-group">
+
+			<input type="text" class="form-control" id="room_name" placeholder="Write Here !!!" style="width:200px; border-radius: 20px;">
+
+	     <br>
+
+		 <button id="addroom_button" class="btn btn-primary" onclick="add_room()" style="width:220px; background-color: rgb(0, 255, 255);">Add Room</button>
+
+		<br><br>
+	
+	
+</center>
+
+</div>
+
+<script src="kwitter_room.js"></script>
+
+
+</body>
+
+</html>
